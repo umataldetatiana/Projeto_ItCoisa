@@ -17,7 +17,7 @@
             transform: translate(-50%, -50%);
             perspective: 1000px;
         }
-        /* Estilizando o quadro */
+        /* Estilizando o frame */
         
         .frame {
             position: absolute;
@@ -69,7 +69,7 @@
             top: 40px;
             right: 5px;
         }
-        /* Adicionando efeito de paralaxe */
+        /* Adicionando efeito de parallax */
         
         .wrapper:hover .frame {
             background-position: -10% 90%;
