@@ -1,0 +1,90 @@
+        /* Reset básico para garantir a mesma aparência em diferentes navegadores */
+        
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            transition: 1s;
+        }
+        /* Estilizando o contêiner principal */
+        
+        .wrapper {
+            position: absolute;
+            width: 600px;
+            height: 400px;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            perspective: 1000px;
+        }
+        /* Estilizando o quadro */
+        
+        .frame {
+            position: absolute;
+            border: 5px solid black;
+            width: 100%;
+            height: 100%;
+            overflow: hidden;
+            background: url(assets/cidade.png);
+            background-size: 50%;
+            background-position: 10% 90%;
+            background-repeat: repeat-x;
+            box-shadow: 0 0 0 rgba(0, 0, 0, 0.7);
+            transition: 1s;
+        }
+        /* Estilizando a imagem do palhaço */
+        
+        .palhaco {
+            position: absolute;
+            height: 300px;
+            top: 10px;
+            right: 150px;
+        }
+        /* Estilizando as imagens dos balões */
+        
+        .balao {
+            position: absolute;
+            pointer-events: none;
+        }
+        
+        .balao1 {
+            height: 300px;
+            left: 80px;
+            bottom: 0;
+            transition: 1s;
+            -webkit-transition: 1s;
+            -moz-transition: 1s;
+            -ms-transition: 1s;
+            -o-transition: 1s;
+        }
+        
+        .balao2 {
+            height: 200px;
+            right: 285px;
+            top: 10px;
+        }
+        
+        .balao3 {
+            height: 250px;
+            top: 40px;
+            right: 5px;
+        }
+        /* Adicionando efeito de paralaxe */
+        
+        .wrapper:hover .frame {
+            background-position: -10% 90%;
+            transform: rotateY(25deg) rotatez(-15deg) translateZ(20px);
+            box-shadow: -35px 5px 10px rgba(0, 0, 0, 0.2);
+        }
+        
+        .wrapper:hover .balao1 {
+            transform: translateX(15px) translateY(-25px) rotate(-10deg) scale(0.9);
+        }
+        
+        .wrapper:hover .balao2 {
+            transform: translateX(-45px) translateY(-25px) rotate(-10deg) scale(1.1);
+        }
+        
+        .wrapper:hover .balao3 {
+            transform: translateX(-30px) translateY(-25px) rotate(-10deg) scale(1.1);
+        }
