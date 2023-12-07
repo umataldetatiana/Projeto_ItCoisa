@@ -1,6 +1,6 @@
 
 ## Projeto Parallax: It a coisa, Balões e a Cidade Misteriosa 🤡🎈🌃
-Incrível projeto de parallax com um toque assustador! Neste projeto, criamos uma página web com efeitos de parallax, onde um palhaço assustador, balões flutuantes e uma cidade misteriosa ganham vida. Créditos ao canal do @Frankslaboratory
+Neste projeto, criamos uma página web com efeitos de parallax, onde um palhaço assustador, balões flutuantes e uma cidade misteriosa ganham vida. Créditos ao canal do @Frankslaboratory
 
 ## Descrição do Projeto
 Neste projeto vamos usar a técnica do parallax para criar uma experiência visual impactante apenas com css. A página que vamos desenvolver apresenta uma cena com elementos como o palhaço do Filme It a coisa, balões flutuantes vermelhos e uma cidade sombria ao fundo.
