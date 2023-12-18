@@ -1,12 +1,7 @@
 
 Projeto Parallax: It a coisa, Balões e a Cidade Misteriosa 🤡🎈🌃
-Descrição do Projeto
-O Projeto Parallax é uma experiência web que utiliza a técnica de parallax para criar uma cena visualmente impactante. Esta página web apresenta elementos inspirados no filme "It a coisa", incluindo um palhaço assustador, balões flutuantes vermelhos e uma cidade sombria ao fundo. A técnica parallax é aplicada usando apenas CSS para trazer uma sensação de profundidade e movimento aos elementos.
 
-Estrutura do Projeto
-A estrutura de arquivos do projeto é organizada da seguinte forma:
 
-Copy code
 📂 projeto_parallax
   ├── 📂 assets
   │   ├── 🖼️ palhaco.png
@@ -14,6 +9,8 @@ Copy code
   │   └── 🖼️ cidade.png
   ├── 📄 index.html
   └── 📄 styles.css
+
+
 Detalhes dos Arquivos
 📂 assets: Contém os recursos gráficos usados no projeto.
 🖼️ palhaco.png: Imagem do palhaço do filme "It a coisa".
