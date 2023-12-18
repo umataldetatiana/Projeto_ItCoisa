@@ -1,37 +1,43 @@
 
-## Projeto Parallax: It a coisa, Balões e a Cidade Misteriosa 🤡🎈🌃
-Neste projeto, criamos uma página web com efeitos de parallax, onde um palhaço assustador, balões flutuantes e uma cidade misteriosa ganham vida. Créditos ao canal do @Frankslaboratory
-
-## Descrição do Projeto
-Neste projeto vamos usar a técnica do parallax para criar uma experiência visual impactante apenas com css. A página que vamos desenvolver apresenta uma cena com elementos como o palhaço do Filme It a coisa, balões flutuantes vermelhos e uma cidade sombria ao fundo.
+Projeto Parallax: It a coisa, Balões e a Cidade Misteriosa 🤡🎈🌃
+Descrição do Projeto
+O Projeto Parallax é uma experiência web que utiliza a técnica de parallax para criar uma cena visualmente impactante. Esta página web apresenta elementos inspirados no filme "It a coisa", incluindo um palhaço assustador, balões flutuantes vermelhos e uma cidade sombria ao fundo. A técnica parallax é aplicada usando apenas CSS para trazer uma sensação de profundidade e movimento aos elementos.
 
 Estrutura do Projeto
-Aqui está a estrutura de arquivos do projeto para você se orientar:
+A estrutura de arquivos do projeto é organizada da seguinte forma:
 
+Copy code
 📂 projeto_parallax
-├── 📂 assets
-│   ├── 🖼️ palhaco.png
-│   ├── 🖼️ balao.png
-│   └── 🖼️ cidade.png
-├── 📄 index.html
-└── 📄 styles.css
+  ├── 📂 assets
+  │   ├── 🖼️ palhaco.png
+  │   ├── 🖼️ balao.png
+  │   └── 🖼️ cidade.png
+  ├── 📄 index.html
+  └── 📄 styles.css
+Detalhes dos Arquivos
+📂 assets: Contém os recursos gráficos usados no projeto.
+🖼️ palhaco.png: Imagem do palhaço do filme "It a coisa".
+🖼️ balao.png: Imagens dos balões vermelhos.
+🖼️ cidade.png: Imagem de fundo da cidade misteriosa.
+📄 index.html: Arquivo HTML principal, define a estrutura da página e incorpora os recursos com a técnica do parallax.
+📄 styles.css: Arquivo CSS com as regras de estilo para o efeito parallax.
+Estilos CSS Básicos
+Os seguintes estilos são aplicados para configurar o efeito parallax:
 
-Vamos dar uma olhada em cada arquivo:
+Gerais: margin: 0;, padding: 0;, box-sizing: border-box;, transition: 1s;
+.wrapper: Elemento contêiner principal. Propriedades como position: absolute;, width: 600px;, height: 400px;, top: 50%;, left: 50%;, transform: translate(-50%, -50%);, perspective: 1000px;
+.frame: Quadro do elemento. Propriedades como position: absolute;, border: 5px solid black;, width: 100%;, height: 100%;, overflow: hidden;, background: url(assets/cidade.png);, background-size: 50%;, background-position: 10% 90%;, background-repeat: repeat-x;, box-shadow: 0 0 0 rgba(0, 0, 0, 0.7);, transition: 1s;
+.palhaco: Estiliza a imagem do palhaço. Propriedades como position: absolute;, height: 300px;, top: 10px;, right: 150px;
+.balao1, .balao2, .balao3: Estilos específicos para cada balão.
+Efeitos de Hover
+Os seguintes estilos são aplicados quando o cursor do mouse passa sobre os elementos:
 
-📂 assets - Este diretório contém os recursos utilizados no projeto:
-🖼️ palhaco.png - Uma imagem assustadora do palhaço It, que será exibida no parallax. Prepare-se para um sorriso sinistro!
-🖼️ balao.png - Imagens dos balões vermelhos que flutuam nessa cena. Os balões são elementos chave para criar o suspense!
-🖼️ cidade.png - Uma imagem de fundo que representa uma cidade misteriosa.
+.wrapper:hover .frame, .wrapper:hover .balao1, .wrapper:hover .balao2, .wrapper:hover .balao3: Alteram a posição de fundo, rotação e escala dos elementos ao passar o mouse.
+O projeto proporciona uma experiência única com animações que mudam a posição, rotação e escala dos elementos ao interagir com o cursor do mouse, aprimorando o efeito parallax.
 
-📄 index.html - Este é o arquivo HTML principal do projeto, responsável por definir a estrutura da página e incluir os recursos necessários com a técnica do parallax.
-📄 styles.css - Este arquivo contém as regras de estilo CSS para o parallax. Nele, vamos definir as posições e animações dos elementos.
+Créditos ao canal @Frankslaboratory.
 
-Vamos começar?
-
-margin: 0; define margem zero para todos os elementos.
-padding: 0; define preenchimento zero para todos os elementos.
-box-sizing: border-box; define a caixa de modelo como "border-box" para todos os elementos.
-transition: 1s; aplica uma transição de 1 segundo a todas as propriedades animadas.
+Divirta-se explorando e personalizando este projeto!madas.
 O seletor .wrapper estiliza o contêiner principal do elemento, com as seguintes propriedades:
 
 position: absolute; posiciona o elemento de forma absoluta.
