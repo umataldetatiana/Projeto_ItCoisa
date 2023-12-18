@@ -34,9 +34,6 @@ O projeto proporciona uma experiência única com animações que mudam a posiç
 
 Créditos ao canal @Frankslaboratory.
 
-Divirta-se explorando e personalizando este projeto!madas.
-
-
 Divirta-se experimentando diferentes ajustes e efeitos para tornar a experiência ainda mais diferente! 👻💀💡
 
 
